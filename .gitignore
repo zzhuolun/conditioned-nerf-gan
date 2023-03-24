@@ -1,0 +1,28 @@
+*.zip
+*.ipynb_checkpoints/
+__pycache__
+pretrained_models/*
+!pretrained_models/PointNet_ONetEncoder.pt
+!pretrained_models/CARLA/
+/vids/
+/EvalImages/
+/data/*
+!/data/shapenet_twenty.lst
+!/data/shapenet_thousand.lst
+!/data/shapenet_val.lst
+# exclude_file.txt
+/.idea/
+/.vscode/
+/archive/
+/tensorboard/
+/test/
+/t*mp*.ipynb
+/shapes/
+/*.lprof
+/checkpos/data/
+/blender_render/tmp/
+# /configs/exp_0816/
+/slurm/
+# /feature_volume/voxel2img.ipynb
+/tempslurm.sh
+/tmp.sh
