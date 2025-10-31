@@ -12,23 +12,23 @@ We evaluate the proposed method with perceptual similarity metrics such as FID, 
 
 # Overview
 
-![System overview](materialsoverview.png)
+![System overview](materials/overview.png)
 
 # Experiments
 
 Last two rows show rendering results of our method:
-![car](materialscar.png)
+![car](materials/car.png)
 
 Our method produces much smoother results than the input geometry:
-![car geometry](materialscar_geometry.png)
+![car geometry](materials/car_geometry.png)
 
 In the following video, the first, third, fifth rows show images rendered from input geometry; the second, fourth, sixth rows show rendered images of better visual quality from our method.
 
-![more results](materialsmore_results.gif)
+![more results](materials/more_results.gif)
 
 Our method is also capable of interpolation in the latent space.
 
-![interpolation](materialsinterpolation.png)
+![interpolation](materials/interpolation.png)
 
 # Usage
 
